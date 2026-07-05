@@ -125,18 +125,6 @@ Lunch_Data = working_data.loc[
                  
                  ]
 
-def normalizar_tiempo(valor):
-    if pd.isna(valor):
-        return '0:00:00'
-    valor = str(valor).strip()
-    if valor == '' or valor == '-':
-        return '0:00:00'
-    partes = valor.split(':')
-    if len(partes) == 2:
-        return f'0:{partes[0]}:{partes[1]}'
-    return valor
-
-Lunch_Data['Lunch'] = Lunch_Data['Lunch'].apply(normalizar_tiempo)
 
 Lunch_Data['Lunch'] = pd.to_timedelta(Lunch_Data['Lunch'])
 
