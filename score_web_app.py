@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+import math
 
 @st.cache_data
 def cargar_datos():
@@ -173,7 +174,7 @@ def punctuality(name):
     not_allowed = punct_data.loc[punct_data['Status'].isin(['Late', 'Called Out', 'No Show']), 'Status'].size
     results = round((not_allowed / total_records) * 100)
     new_result = 100 - results
-    return (new_result / 100) * 5
+    return math.floor((new_result / 100) * 5 + 0.5)
 
 
 # Funcion para el calculo del conformance
@@ -216,7 +217,7 @@ def conformance(name):
 
     grouped_score = score_horas_trabajadas + resultado_lunch + score_away
 
-    return round(grouped_score / 3,2)
+    return math.floor(grouped_score / 3 + 0.5)
 
 
 
