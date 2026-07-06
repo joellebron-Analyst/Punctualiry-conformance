@@ -22,7 +22,9 @@ data['datestamp'] = pd.to_datetime(data['datestamp'])
 
 Base_data = data.loc[
 
-data['datestamp'].dt.year >= 2026
+(data['datestamp'].dt.year >= 2026)
+&
+(data['datestamp'].dt.month >= 6)
 ]
 
 
