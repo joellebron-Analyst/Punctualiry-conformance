@@ -105,7 +105,7 @@ working_data = Base_data.loc[
     &
     (Base_data['datestamp'].dt.month == mes_seleccionado) # Fecha final
     &
-    (Base_data['LOB'] == lob_permitido)     # Aqui está el Departamento          
+    (Base_data['LOB'].isin( lob_permitido))     # Aqui está el Departamento          
          
          ]
 
