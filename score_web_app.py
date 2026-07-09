@@ -73,7 +73,7 @@ codigos = {
     '1016': {'lob': ['OFAC'],                            'lider': 'DELYS DIPRE DOMINGUEZ'},
     '1017': {'lob': ['FINANCE'],                         'lider': 'YERITSA VICTORIA LANTIGUA VIZCAINO'},
     '1018': {'lob': ['INFORMATION TECHNOLOGY (IT)'],     'lider': 'THIARA SANCHEZ POLANCO'},
-    '1019': {'lob': ['OPERATIONS',                      'lider': 'LUIS MIGUEL POU RAMIREZ'},
+    '1019': {'lob': ['OPERATIONS'],                      'lider': 'LUIS MIGUEL POU RAMIREZ'},
     '1020': {'lob': ['REVENUE OPERATIONS'],              'lider': 'NYLEEN DASHILL PERDOMO MELO'},
     '9999': {'lob': ['ADMIN'],                           'lider': 'ADMINISTRADOR'},
 }
