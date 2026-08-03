@@ -174,7 +174,7 @@ def punctuality(name):
     not_allowed = punct_data.loc[punct_data['Status'].isin(['Late', 'Called Out', 'No Show']), 'Status'].size
     results = round((not_allowed / total_records) * 100)
     new_result = 100 - results
-    return math.floor((new_result / 100) * 5 + 0.5)
+    return round((new_result / 100) * 5, 2)
 
 
 # Funcion para el calculo del conformance
