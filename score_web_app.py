@@ -217,7 +217,7 @@ def conformance(name):
 
     grouped_score = score_horas_trabajadas + resultado_lunch + score_away
 
-    return math.floor(grouped_score / 3)
+    return round(grouped_score / 3, 2)
 
 
 
