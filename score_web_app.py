@@ -67,7 +67,7 @@ codigos = {
     '1008': {'lob': ['SUBMISSION AND OPERATIONS'],                    'lider': 'MAYLIN TERESA SURIEL HERNANDEZ'},
     '1009': {'lob': ['QA'],                              'lider': 'ASHLIE GABRIELA VASQUEZ SANTIAGO'},
     '1010': {'lob': ['ANALYTICS', 'DATA SCIENCE'],     'lider': 'MARIO ALBERTO DE LA CRUZ FERRERAS'},
-    '1011': {'lob': ['SERVICINGS'],                      'lider': 'ADRIAN PEÑA PAULINO'},
+    '1011': {'lob': ['ACCOUNT MANAGEMENT'],                      'lider': 'ADRIAN PEÑA PAULINO'},
     '1012': {'lob': ['RISK & COMPLIANCE'],               'lider': 'JHOSWAL RAMIREZ SUAREZ'},
     '1013': {'lob': ['GO TO MARKET'],                    'lider': 'CINTHYA ROSSELYN BAEZ PAULINO'},
     '1014': {'lob': ['PORTFOLIO PERFORMANCE & RISK'],    'lider': 'ARGELIA NUÑEZ FERREIRA'},
