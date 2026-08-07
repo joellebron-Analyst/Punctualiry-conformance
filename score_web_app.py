@@ -150,7 +150,7 @@ away_base_data['away'] = pd.to_timedelta(away_base_data['away'])
 
 conformance_data = working_data.loc[
     
-    (~working_data['Status'].isin(['Maternity/Paternity Leave','Maternity/Paternity Leave', 'Medical License', 'Sick Leave']))
+    (~working_data['Status'].isin(['Leave Of Absence']))
                  ]
 
 conformance_data['Total work time'] = pd.to_timedelta(conformance_data['Total work time'])
