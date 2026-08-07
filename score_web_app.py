@@ -64,7 +64,7 @@ codigos = {
     '1005': {'lob': ['PROCESS'],                         'lider': 'ABEL GOMEZ ORTIZ'},
     '1006': {'lob': ['MULTIFUNCTIONS'],                  'lider': 'YAEL JOHANNY CARO MARTINEZ'},
     '1007': {'lob': ['FRAUD/AML'],                       'lider': 'JHOAN ANDRES GOMEZ RODRIGUEZ'},
-    '1008': {'lob': ['UNDERWRITING'],                    'lider': 'MAYLIN TERESA SURIEL HERNANDEZ'},
+    '1008': {'lob': ['SUBMISSION AND OPERATIONS'],                    'lider': 'MAYLIN TERESA SURIEL HERNANDEZ'},
     '1009': {'lob': ['QA'],                              'lider': 'ASHLIE GABRIELA VASQUEZ SANTIAGO'},
     '1010': {'lob': ['ANALYTICS', 'DATA SCIENCE'],     'lider': 'MARIO ALBERTO DE LA CRUZ FERRERAS'},
     '1011': {'lob': ['SERVICINGS'],                      'lider': 'ADRIAN PEÑA PAULINO'},
