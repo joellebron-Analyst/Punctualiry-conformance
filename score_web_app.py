@@ -69,7 +69,7 @@ codigos = {
     '1010': {'lob': ['ANALYTICS', 'DATA SCIENCE'],     'lider': 'MARIO ALBERTO DE LA CRUZ FERRERAS'},
     '1011': {'lob': ['ACCOUNT MANAGEMENT'],                      'lider': 'ADRIAN PEÑA PAULINO'},
     '1012': {'lob': ['RISK & COMPLIANCE'],               'lider': 'JHOSWAL RAMIREZ SUAREZ'},
-    '1013': {'lob': ['GO TO MARKET', 'CUSTOMER SATISFACTION], 'lider': 'CINTHYA ROSSELYN BAEZ PAULINO'},
+    '1013': {'lob': ['GO TO MARKET', 'CUSTOMER SATISFACTION'], 'lider': 'CINTHYA ROSSELYN BAEZ PAULINO'},
     '1014': {'lob': ['PORTFOLIO PERFORMANCE & RISK'],    'lider': 'ARGELIA NUÑEZ FERREIRA'},
     '1015': {'lob': ['HUMAN RESOURCES (HR)'],             'lider': 'ENMANUEL ANTONIO SANCHEZ DISLA'},
     '1016': {'lob': ['OFAC'],                            'lider': 'DELYS DIPRE DOMINGUEZ'},
