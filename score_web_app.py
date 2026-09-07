@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import math
 
-@st.cache_data
+@st.cache_data(ttl=86400)
 def cargar_datos():
     return pd.read_csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vSL8e5uoUExt5a-LDPCw0rEcFTm0SqAhLz8sYT8sbkYtse1pvMHY9Qij547diNhlP__DYxtuT8XojRO/pub?gid=1596580014&single=true&output=csv')
 
