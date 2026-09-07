@@ -173,7 +173,7 @@ def punctuality(name):
     if total_records == 0:
         return 0
 
-    not_allowed = punct_data.loc[punct_data['Status'].isin(['Late', 'Called Out', 'No Show', 'Medical Appointment']), 'Status'].size
+    not_allowed = punct_data.loc[punct_data['Status'].isin(['Late', 'Called Out', 'No Show']), 'Status'].size
     results = round((not_allowed / total_records) * 100)
     new_result = 100 - results
     return round((new_result / 100) * 5, 2)
