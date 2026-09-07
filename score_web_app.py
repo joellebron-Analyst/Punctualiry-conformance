@@ -164,7 +164,7 @@ def punctuality(name):
     punct_data = working_data.loc[
         (working_data['Full Name'] == name)
         &
-        (~working_data['Status'].isin(['Vacation', 'Maternity/Paternity Leave', 'Medical License', 'Sick Leave']))
+        (~working_data['Status'].isin(['Vacation', 'Maternity/Paternity Leave', 'Medical License', 'Sick Leave', 'De viaje']))
     
     ]
     
