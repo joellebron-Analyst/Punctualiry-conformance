@@ -124,7 +124,7 @@ fechas_excluir = pd.to_datetime([
 
 Lunch_Data = working_data.loc[
     
-    (~working_data['Status'].isin(['Vacation','Maternity/Paternity Leave', 'No Show', 'Medical License', 'Sick Leave']))
+    (~working_data['Status'].isin(['Vacation','Maternity/Paternity Leave', 'No Show', 'Medical License', 'Sick Leave', 'Holiday at Home']))
     &
     (~working_data['datestamp'].dt.date.isin(fechas_excluir))
                  
@@ -140,7 +140,7 @@ Lunch_Data['Lunch'] = pd.to_timedelta(Lunch_Data['Lunch'])
 
 away_base_data = working_data.loc[
     
-    (~working_data['Status'].isin(['Vacation','Maternity/Paternity Leave', 'Medical License', 'No Show', 'Sick Leave']))
+    (~working_data['Status'].isin(['Vacation','Maternity/Paternity Leave', 'Medical License', 'No Show', 'Sick Leave', 'Holiday at Home']))
    
    ]
 
@@ -164,7 +164,7 @@ def punctuality(name):
     punct_data = working_data.loc[
         (working_data['Full Name'] == name)
         &
-        (~working_data['Status'].isin(['Vacation', 'Maternity/Paternity Leave', 'Medical License', 'Sick Leave', 'De viaje']))
+        (~working_data['Status'].isin(['Vacation', 'Maternity/Paternity Leave', 'Medical License', 'Sick Leave', 'De viaje', 'Holiday at Home']))
     
     ]
     
