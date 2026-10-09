@@ -17,7 +17,6 @@ st.markdown('# ⌚📊 Punctuality-Conformance Page')
 st.markdown('## Overview')
 
 
-st.markdown('### Hola Lider. Estamos trabajando en la actualización de los datos. Gracias por la paciencia.')
 data = cargar_datos()
 data['datestamp'] = pd.to_datetime(data['datestamp'])
 
