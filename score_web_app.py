@@ -13,8 +13,8 @@ st.set_page_config(
     initial_sidebar_state="expanded")
 
 
-st.markdown('# ⌚📊 Platform under modifications')
-st.markdown('## Thanks for being patient')
+st.markdown('# ⌚📊 Punctuality-Conformance Page')
+st.markdown('## Overview')
 
 
 st.markdown('### Hola Lider. Estamos trabajando en la actualización de los datos. Gracias por la paciencia.')
