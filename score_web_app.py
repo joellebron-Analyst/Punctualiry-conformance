@@ -65,7 +65,7 @@ mes_seleccionado = st.sidebar.selectbox(
 #
 
 codigos = {
-    '1001': {'lob': ['INBOUND & CHAT'],                 'lider': 'ELIMARDY NATHALY DIPRE DOMINGUEZ'},
+    '1001': {'lob': ['INBOUND & CHAT'],                 'lider': 'KIMBERLY GAUTREAUX'},
     '1002': {'lob': ['RELATIONSHIP MANAGEMENT'],         'lider': 'JOHNANGEL RAMIREZ GUTIERREZ'},
     '1003': {'lob': ['SALES'],                           'lider': 'JUAN MIGUEL MENDEZ'},
     '1004': {'lob': ['ONBOARDING'],                      'lider': 'ELAINI ENCARNACION MAYNERD'},
